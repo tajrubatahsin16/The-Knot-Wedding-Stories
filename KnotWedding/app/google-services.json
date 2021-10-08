@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "764456676354",
+    "project_id": "knotwedding-9f6db",
+    "storage_bucket": "knotwedding-9f6db.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:764456676354:android:4d332fb0255f6ba79e4b1b",
+        "android_client_info": {
+          "package_name": "com.example.knotwedding"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "764456676354-aodn23pm2dg1s3onnmb9ark4h1ni7f5o.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.knotwedding",
+            "certificate_hash": "8d06ea55205e0e658eb8f74bdba9aacee40a17b8"
+          }
+        },
+        {
+          "client_id": "764456676354-svarcvc6v3dfmo67bajja9rrv4cq83jv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAnOeS-7LSH7Iz814aXHNdN4X1txUJxYYM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "764456676354-svarcvc6v3dfmo67bajja9rrv4cq83jv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

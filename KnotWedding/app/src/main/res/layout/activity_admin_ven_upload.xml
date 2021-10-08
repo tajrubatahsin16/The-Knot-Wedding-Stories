@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFCCBC"
+    tools:context=".AdminVenUpload">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="ScrollViewSize">
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="416dp"
+            android:layout_height="124dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/venueheader" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="257dp"
+            android:layout_height="72dp"
+            android:layout_marginStart="88dp"
+            android:layout_marginTop="52dp"
+            android:fontFamily="@font/aref_ruqaa"
+            android:paddingTop="5dp"
+            android:text="Venue Decoration"
+            android:textColor="#07163A"
+            android:textSize="30dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="MissingConstraints" />
+
+        />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="30dp"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="5dp"
+            tools:layout_editor_absoluteY="0dp">
+
+            <ImageView
+                android:id="@+id/ivVenImage"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="100dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/noimage"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <EditText
+                android:id="@+id/txtVenName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Venue Name"
+                android:textSize="19sp"
+                tools:layout_editor_absoluteX="30dp"
+                tools:layout_editor_absoluteY="315dp"
+                tools:ignore="MissingConstraints" />
+
+            <EditText
+                android:id="@+id/txtDesp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Description"
+                android:textSize="19sp"
+                tools:layout_editor_absoluteX="30dp"
+                tools:layout_editor_absoluteY="376dp"
+                tools:ignore="MissingConstraints" />
+
+            <EditText
+                android:id="@+id/txtCost"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Cost"
+                android:textSize="19sp"
+                tools:layout_editor_absoluteX="30dp"
+                tools:layout_editor_absoluteY="436dp"
+                tools:ignore="MissingConstraints" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:backgroundTint="@color/black"
+                android:onClick="btnSelectImage"
+                android:text="Select Image"
+                android:textColor="#ffffff"
+                android:textSize="22sp"
+                tools:layout_editor_absoluteX="30dp"
+                tools:layout_editor_absoluteY="495dp"
+                tools:ignore="MissingConstraints" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:backgroundTint="@color/black"
+                android:text="Upload Picture"
+                android:textColor="#ffffff"
+                android:textSize="22sp"
+                tools:layout_editor_absoluteX="30dp"
+                tools:layout_editor_absoluteY="564dp"
+                tools:ignore="MissingConstraints"
+                android:onClick="btnUploadImage"/>
+
+
+
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</ScrollView>

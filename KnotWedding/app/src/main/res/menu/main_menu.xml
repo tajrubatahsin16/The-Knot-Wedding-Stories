@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/home_icon"
+            android:title="Home"></item>
+        <item
+            android:id="@+id/nav_venue"
+            android:icon="@drawable/venue_icon"
+            android:title="Venue"></item>
+        <item
+            android:id="@+id/nav_food"
+            android:icon="@drawable/food_icon"
+            android:title="Food"></item>
+        <item
+            android:id="@+id/nav_dress"
+            android:icon="@drawable/dress_icon"
+            android:title="Dresses"></item>
+        <item
+            android:id="@+id/nav_photography"
+            android:icon="@drawable/cam_icon"
+            android:title="Photography"></item>
+    </group>
+
+
+    <item android:title="Profile">
+
+        <menu>
+            <group android:checkableBehavior="single">
+
+                <item
+                    android:id="@+id/nav_logout"
+                    android:icon="@drawable/logout_icon1"
+                    android:title="Logout"></item>
+                
+            </group>
+        </menu>
+
+    </item>
+
+
+    <item android:title="Communicate">
+
+        <menu>
+
+            <item
+                android:id="@+id/nav_call"
+                android:icon="@drawable/callicon"
+                android:title="Contact Us" />
+
+            <item
+                android:id="@+id/nav_rate"
+                android:icon="@drawable/rate_icon"
+                android:title="Rate Us" />
+
+
+        </menu>
+
+    </item>
+
+</menu>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="90dp"
+    app:cardCornerRadius="17dp"
+    android:layout_height="400dp"
+  app:cardBackgroundColor="#22E5FF"
+    android:padding="10dp"
+    android:layout_margin="5dp">
+<LinearLayout
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    <TextView
+        android:textColor="#3F51B5"
+        android:fontFamily="@font/aclonica"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Package Name :"
+        android:padding="5dp"
+        android:textStyle="bold"
+        android:textSize="20sp"/>
+        <TextView
+            android:fontFamily="@font/aref_ruqaa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Super saver"
+            android:layout_marginStart="20dp"
+            android:id="@+id/name_text"
+            android:textStyle="bold"
+            android:textSize="15sp"/>
+    ></LinearLayout>
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:textColor="#3F51B5"
+            android:fontFamily="@font/aclonica"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Package Price(Per Event) :"
+            android:padding="5dp"
+            android:textStyle="bold"
+            android:textSize="15sp"/>
+        <TextView
+            android:fontFamily="@font/aref_ruqaa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="800000TK(BDT)"
+            android:layout_marginStart="20dp"
+            android:id="@+id/price_text"
+            android:textStyle="bold"
+            android:textSize="15sp"/>
+        ></LinearLayout>
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/aclonica"
+            android:padding="5dp"
+            android:text="Package Details:"
+            android:textColor="#3F51B5"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/details_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:fontFamily="@font/aref_ruqaa"
+            android:text="1senior Photographer 1 cinematographer 100 prints "
+              android:padding="10dp"
+
+            android:textSize="15sp"
+            android:textStyle="bold" />
+        >
+    </LinearLayout>
+</LinearLayout>
+</androidx.cardview.widget.CardView>

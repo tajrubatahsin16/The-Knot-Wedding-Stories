@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/back1"
+    android:padding="20dp"
+    tools:context=".login">
+
+    <TextView
+        android:id="@+id/tvlogin"
+        android:textColor="#FF9800"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20sp"
+        android:textSize="25sp"
+        android:textStyle="bold|italic"
+
+        android:text="Welcome to login page"/>
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/wdphoto1" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/loginphne"
+        android:hint="Phone number"
+        android:inputType="number"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:background="#FFFF"
+        android:padding="20dp"
+        android:textColorHint="#FF9800"
+        >
+
+
+
+    </EditText>
+
+
+    <EditText
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/loginpass"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:background="#FFFF"
+        android:padding="20dp"
+        android:textColorHint="#FF9800"
+        >
+    </EditText>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+
+        >
+       <CheckBox
+           android:id="@+id/chckbox"
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:text="REMEMBER ME!"
+           android:textColor="#FF9800"
+           android:layout_marginLeft="20sp"
+           android:textSize="25sp"
+           android:padding="20dp"/>
+
+
+
+
+
+    </LinearLayout>
+
+    <Button
+        android:layout_marginTop="30dp"
+        android:id="@+id/logb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:text="Login"
+        android:textSize="20sp"
+        android:textStyle="bold"
+       android:backgroundTint="#FFFF"
+        android:textColor="#FF9800"
+
+        ></Button>
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FF9800"
+        android:id="@+id/nadmin"
+        android:text="Not an admin?"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:visibility="invisible"
+        android:layout_marginLeft="100dp"
+
+        ></TextView>
+
+    <TextView
+        android:layout_marginTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:id="@+id/admin"
+        android:text="I am an admin?"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:textColor="#FF9800"
+        android:layout_marginLeft="100dp"
+        ></TextView>
+</LinearLayout>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/admin2"
+    tools:context=".adminbutton">
+    <TextView
+android:fontFamily="@font/aref_ruqaa"
+        android:text="Welcome to food page"
+        android:id="@+id/TextView6"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:gravity="center"
+        android:layout_marginTop="50sp"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_marginLeft="30sp"
+        android:padding="10dp"
+         android:textColor="#FF22"
+
+        android:layout_marginRight="40sp"
+        />
+
+
+    <TextView
+        android:fontFamily="@font/aref_ruqaa"
+        android:text="Engagement  ceremony food package"
+        android:id="@+id/TextView8"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30sp"
+        android:textSize="18sp"
+        android:textStyle="bold|italic"
+        android:layout_marginLeft="50sp"
+        android:padding="1dp"
+
+           android:textColor="#FF22"
+        android:layout_marginRight="50sp"
+        android:background="@drawable/textborder"
+        />
+
+    <TextView
+        android:fontFamily="@font/aref_ruqaa"
+        android:text="Holud  ceremony food package"
+        android:id="@+id/TextView9"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="17sp"
+        android:textSize="18sp"
+        android:textStyle="bold|italic"
+        android:layout_marginLeft="50sp"
+         android:textColor="#FF22"
+        android:padding="5dp"
+        android:background="@drawable/textborder"
+        android:layout_marginRight="50sp"
+        />
+
+
+    <TextView
+        android:fontFamily="@font/aref_ruqaa"
+        android:text="Reception  food package"
+        android:id="@+id/TextView10"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20sp"
+        android:textSize="18sp"
+        android:textStyle="bold|italic"
+        android:layout_marginLeft="50sp"
+         android:textColor="#FF22"
+        android:padding="5dp"
+        android:background="@drawable/textborder"
+        android:layout_marginRight="50sp"
+        />
+</LinearLayout>

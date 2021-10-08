@@ -1,0 +1,9 @@
+Softwares: Android Studio
+Steps:
+1) After installation of Android Studio, open the project in android studio.
+
+2) Use android version 8.0(oreo).
+
+2) Then connect it to your Firebase.
+
+3) Then run it on your emulator.

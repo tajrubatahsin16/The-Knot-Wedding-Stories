@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F3DED3"
+    tools:context=".AdHomePage">
+
+    <ImageView
+        android:id="@+id/head"
+        android:layout_width="413dp"
+        android:layout_height="98dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/p_header" />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="266dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="72dp"
+        android:layout_marginTop="26dp"
+        android:fontFamily="@font/eagle_lake"
+        android:text="Admin  Panel"
+        android:textColor="#401010"
+        android:textSize="32dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <ImageView
+        android:id="@+id/admin_venue"
+        android:layout_width="186dp"
+        android:layout_height="162dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="112dp"
+        android:onClick="adminVenue"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/venue3" />
+
+    <ImageView
+        android:id="@+id/admin_food"
+        android:layout_width="149dp"
+        android:layout_height="136dp"
+        android:layout_marginTop="128dp"
+        android:layout_marginEnd="16dp"
+        android:onClick="adminFood"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/food1" />
+
+    <ImageView
+        android:id="@+id/admin_dress"
+        android:layout_width="151dp"
+        android:layout_height="142dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginBottom="25dp"
+        android:onClick="adminDress"
+        app:layout_constraintBottom_toTopOf="@+id/imageView6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/dress1" />
+
+    <ImageView
+        android:id="@+id/admin_chat"
+        android:layout_width="171dp"
+        android:layout_height="135dp"
+        android:layout_marginTop="308dp"
+        android:layout_marginEnd="12dp"
+        android:onClick="photoUp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/photoicon" />
+
+    <ImageView
+        android:id="@+id/admin_Logout"
+        android:layout_width="150dp"
+        android:layout_height="103dp"
+        android:layout_marginStart="133dp"
+        android:layout_marginEnd="128dp"
+        android:layout_marginBottom="28dp"
+        android:onClick="adminLogout"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/lgot_icon" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="160dp"
+        android:layout_height="129dp"
+        android:layout_marginEnd="23dp"
+        android:layout_marginBottom="12dp"
+        android:onClick="bookings"
+        android:src="@drawable/budgeticonad"
+        app:layout_constraintBottom_toTopOf="@+id/admin_Logout"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="146dp"
+        android:layout_height="113dp"
+        android:layout_marginStart="45dp"
+        android:layout_marginBottom="19dp"
+        android:onClick="rating"
+        android:src="@drawable/admin_rate"
+        app:layout_constraintBottom_toTopOf="@+id/admin_Logout"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

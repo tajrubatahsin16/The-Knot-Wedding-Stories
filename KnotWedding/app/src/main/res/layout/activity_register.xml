@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/back1"
+    android:padding="20dp"
+    tools:context=".Register">
+      <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp">
+        <TextView
+            android:id="@+id/tvsignuppage1"
+            android:textColor="#FF9800"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50sp"
+            android:textSize="20sp"
+            android:textStyle="italic"
+            android:text="Welcome to sign Up page"/>
+          <ImageView
+              android:id="@+id/imageView"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              app:srcCompat="@drawable/wdphoto1" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/name"
+        android:hint="Name"
+        android:inputType="text"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:background="#FFFF"
+        android:padding="20dp"
+         android:textColorHint="#FF9800"
+        >
+
+
+
+    </EditText>
+
+    <EditText
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/loginphne"
+        android:hint="Phone number"
+        android:inputType="number"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:background="#FFFF"
+        android:padding="20dp"
+        android:textColorHint="#FF9800"
+
+        >
+
+
+
+    </EditText>
+
+
+    <EditText
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/loginpass"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:background="#FFFF"
+        android:padding="20dp"
+        android:textColorHint="#FF9800"
+        >
+    </EditText>
+
+
+    <Button
+        android:layout_marginTop="50dp"
+        android:id="@+id/cr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:text="Sign Up"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#FF9800"
+       android:backgroundTint="#FFFF"
+        android:layout_marginLeft="100dp"
+
+        ></Button>
+      </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D5D0BB"
+    android:fitsSystemWindows="true"
+    tools:context=".UserDress">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="416dp"
+            android:layout_height="124dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/dresses_header3" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="257dp"
+            android:layout_height="72dp"
+            android:layout_marginStart="77dp"
+            android:layout_marginTop="35dp"
+            android:fontFamily="@font/aref_ruqaa"
+            android:paddingTop="5dp"
+            android:text="Get your dream dress"
+            android:textColor="#07163A"
+            android:textSize="30dp"
+            app:layout_constraintStart_toStartOf="@+id/imageView5"
+            app:layout_constraintTop_toTopOf="@+id/imageView5" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView5"
+            tools:ignore="MissingConstraints"
+            android:id="@+id/recycler1"
+            android:scrollbars="vertical"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

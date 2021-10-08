@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#89CFF0"
+    tools:context=".AppCalling">
+<!--
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="131dp"
+        android:layout_marginBottom="69dp"
+        android:src="@drawable/callpic"
+        app:layout_constraintBottom_toTopOf="@+id/call"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:ignore="MissingConstraints" />
+        -->
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/lottie1"
+        android:layout_width="324dp"
+        android:layout_height="187dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.338"
+        app:lottie_autoPlay="true"
+        app:lottie_rawRes="@raw/call3" />
+
+    <ImageView
+        android:layout_width="410dp"
+        android:layout_height="125dp"
+        android:src="@drawable/callheader"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="-5dp" />
+
+
+    <TextView
+        android:layout_width="257dp"
+        android:layout_height="72dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="28dp"
+        android:fontFamily="@font/aref_ruqaa"
+        android:paddingTop="5dp"
+        android:text="The Knot-Wedding Stories Call Center"
+        android:textColor="#07163A"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/call"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="428dp"
+        android:backgroundTint="#1c4966"
+        android:padding="20dp"
+        android:text="Call Admin"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="16dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

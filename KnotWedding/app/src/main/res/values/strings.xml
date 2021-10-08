@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">KnotWedding</string>
+    <string name="project_name">The Knot_Wedding Stories</string>
+    <string name="website">www.knot_weddingstories.com</string>
+    <string name="quote1">Let your fairy tale come true</string>
+    <string name="image_button">Click to see our Gallary</string>
+    <string name="navigation_drawer_open">Open Navigation Drawer</string>
+    <string name="navigation_drawer_close">Close Navigation Drawer</string>
+    <string name="quote2">A picture beholds a thousand memories</string>
+    <string name="quote3">Packages for Wedding</string>
+    <string name="p_button1">Super Saver</string>
+    <string name="p_button2">Standard</string>
+    <string name="p_button3">Premium</string>
+    <string name="supsav">Price 10,000 (1 Event)</string>
+    <string name="supsav1">1 senior Photographer</string>
+    <string name="supsav2">1 Cinematographer</string>
+    <string name="supsav3">80 prints</string>
+    <string name="supsav4">50 Specially Edited</string>
+    <string name="supsav5">Unlimited Photos</string>
+    <string name="supsav6">Movie (20-40 min)</string>
+    <string name="supsav7">Promo (2-3 min)</string>
+    <string name="supsav8">4.30 hrs Coverage</string>
+    <string name="supsav9">DVDs with box</string>
+
+    <string name="standard1">Price 20,000 (1 Event)</string>
+    <string name="standard2">1 Chief Photographer</string>
+    <string name="standard3">1 senior Photographer</string>
+    <string name="standard4">1 Cinematographer</string>
+    <string name="standard5">100 prints</string>
+    <string name="standard6">80 Specially Edited</string>
+    <string name="standard7">Unlimited Photos</string>
+    <string name="standard8">Movie (20-40 min)</string>
+    <string name="standard9">Promo (2-3 min)</string>
+    <string name="standard10">4.30 hrs Coverage</string>
+    <string name="standard11">DVDs with box</string>
+
+    <string name="premium1">Price 70,000 (1 Event)</string>
+    <string name="premium2">2 Chief Photographer</string>
+    <string name="premium3">4 senior Photographer</string>
+    <string name="premium4">4 Cinematographer</string>
+    <string name="premium5">200 prints + 5 poster</string>
+    <string name="premium6">200 Specially Edited</string>
+    <string name="premium7">Unlimited Photos</string>
+    <string name="premium8">Movie (20-60 min)</string>
+    <string name="premium9">Promo (5 min)</string>
+    <string name="premium10">5 hrs Coverage</string>
+</resources>

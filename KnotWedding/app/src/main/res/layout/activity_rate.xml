@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#AAA882"
+    tools:context=".Rate">
+
+    <dev.yuganshtyagi.smileyrating.SmileyRatingView
+        android:id="@+id/smiley_view"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_marginBottom="20dp"
+        app:face_color="#FFC107" />
+
+    <RatingBar
+        android:id="@+id/rating_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:numStars="4" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="15dp"
+        android:text="Give us Your FeedBack"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+
+    <EditText
+        android:id="@+id/FeedBack_txt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="30dp"
+        android:background="#9A7E9A"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Enter your feedback"
+        android:inputType="textMultiLine"
+        android:paddingBottom="60dp" />
+
+    <Button
+        android:id="@+id/sendFeedbtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="70sp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="70sp"
+        android:text="Send Feedback" />
+
+
+
+</LinearLayout>
